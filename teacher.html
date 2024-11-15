@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад викладача</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <hr class="custom-line1">
+    <hr class="custom-line">
+    <h1>Розклад викладача</h1>
+
+    <div class="form-container">
+        <label for="teacher">Виберіть викладача:</label>
+        <input id="teacher" type="text" list="teachers" autocomplete="off">
+        <datalist id="teachers"></datalist>
+
+
+        <label for="teacher-date">Выберите дату:</label>
+        <input type="date" id="teacher-date">
+
+        <button id="search-teacher">Пошук</button>
+    </div>
+
+
+    <div id="teacher-data" class="data-table"></div>
+</div>
+<hr class="custom-line">
+<div class="button-container">
+    <button id="to-main-page" class="nav-button"> • Повернутись до розкладу груп</button>
+    <div class="vertical-line"></div>
+    <div class="vertical-line"></div>
+    <button id="to-teacher-page" class="nav-button">Перейти до розкладу викладача •</button>
+</div>
+<script src="scriptteacher.js"></script>
+</body>
+</html>

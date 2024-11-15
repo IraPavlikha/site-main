@@ -1,0 +1,170 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 1px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1d1f22;
+    font-family: "Times New Roman";
+    font-weight: normal;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.data-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.data-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #000000;
+    color: white;
+}
+
+.data-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.form-container {
+    display: flex;
+    font-family: "Times New Roman";
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: normal;
+}
+
+select, input, button {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.button-container {
+    display: flex;
+    max-width: 800px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+
+.nav-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #5e5b5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #424040;
+}
+
+select, button {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #2e2d2d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #424040;
+}
+
+.vertical-line {
+    width: 5px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 6px;
+}
+.custom-line1 {
+    width: 4%;
+    height: 4px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.custom-line {
+    width: 60%;
+    height: 1px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 20px auto;
+}
